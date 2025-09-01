@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <p></p>
+    <form>
+        <fieldset>
+            <legend>Nome e sobrenome</legend>
+            <input type="text" required placeholder="Nome de usuário">
+            <input type="text" required placeholder="Sobrenome de usuário">
+        </fieldset>
+    <fieldset>
+    <legend>Email e senha</legend>
+        <input type="email" required placeholder="Email de usuário">
+        <p></p>
+        <input type="password" placeholder="Insira uma senha">
+        <input type="password" placeholder="Repita sua senha">
+    </fieldset>
+    <fieldset>
+    <legend>Informações pessoais</legend>
+        Data de Nascimento: <input type="date" placeholder="Data de nascimento">
+        <p>Crie uma senha:</p>
+        <input type="password" required placeholder="Insira uma senha">
+        <input type="password" required placeholder="Repita sua senha">
+        <p></p>
+        <fieldset>
+            <legend>Gênero</legend>
+<form>
+  <label>
+    <input type="radio" name="genero" value="Masculino"> Masculino
+  </label>
+  <label>
+    <input type="radio" name="genero" value="Feminino"> Feminino
+  </label>
+  <label>
+    <input type="radio" name="genero" value="Outros"> Outros
+  </label>
+</form>
+    </fieldset>
+    <fieldset>
+        <legend>Interesses pessoais</legend>
+        <div> <input type="checkbox"> Jogos </div>
+        <div> <input type="checkbox"> Filmes e Teatro </div>
+        <div> <input type="checkbox"> Esportes </div>
+        <div> <input type="checkbox"> Livros </div>
+        <div> <input type="checkbox"> Ciência </div>
+        <div> <input type="checkbox"> Outros <input type="text"> </div>
+    </fieldset>
+    <div></div>
+    <p></p>
+    <button>Finalizar</button>
+    <button>Reiniciar</button>
+    <p></p>
+    <div> Para mais informações acesse: <img src="OIP.webp" alt="icon google" width="64" height="64"> <a href="https://www.google.com">Google</a></div>
+    </form> </div>
+</body>
+</html>
